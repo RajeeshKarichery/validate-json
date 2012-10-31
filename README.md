@@ -1,12 +1,13 @@
-validate-json
-=============
+$.validateJSON()
+================
 
 When called from a form field (such as a textarea) which has
-been populated with JSON the validateJSON jQuery plugin will validate the 
+been populated with JSON, the validateJSON jQuery plugin will validate the 
 contents, format the result, and call an onSuccess or onError callback.
 
 The JSON validation is jacked straight from [JSON Lint](http://jsonlint.com), but
-the plugin part is original.
+the plugin part is original. If there's anything broken, it's probably in the 
+plugin. 
 
 Options
 -------
@@ -70,6 +71,9 @@ $("#json").validateJSON({
   }
 })
 ```
+
+Callback Usage
+-------------
 
 ``` javascript
 var jsonResults = $("#result");
