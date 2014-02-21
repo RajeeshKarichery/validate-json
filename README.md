@@ -1,5 +1,5 @@
-$.validateJSON()
-================
+$.validateJSON
+==============
 
 When called from a form field (such as a textarea) which has
 been populated with JSON, the validateJSON jQuery plugin will validate the 
@@ -27,7 +27,7 @@ You can pass any of the following four *optional* params:
 *Function*, Called upon successful validation of the JSON. Default: noop. Passes a single param 
 which contains an object:
 
-``` json
+```json
 {
   valid: true
   json: {}
@@ -39,7 +39,7 @@ which contains an object:
 *Function*, Called upon failed validation of the JSON. Default: noop. Passes a single param 
 which contains an error object:
 
-``` json
+```json
 {
   message: "Error message"
 }
@@ -50,7 +50,7 @@ Usage
 
 Call validateJSON from a textarea:
 
-``` javascript
+```javascript
 $("#json").validateJSON({
   // Compress the result
   // default: false
@@ -75,7 +75,7 @@ $("#json").validateJSON({
 Callback Usage
 -------------
 
-``` javascript
+```javascript
 var jsonResults = $("#result");
 var jsonInput = $("#json_input");
 

@@ -1,0 +1,32 @@
+{
+    "name": "validate-json",
+    "title": "jQuery validateJSON",
+    "description": "Validate JSON with a jQuery plugin",
+    "author": {
+      "name": "Dustin Boston",
+      "url": "https://github.com/dustinboston"
+    },
+    "keywords": [
+      "json",
+      "validation",
+      "jsonlint",
+      "jsl"
+    ],
+    "version": "0.1.0",
+    "maintainers": [
+      {
+        "name": "Dustin Boston",
+        "url": "https://github.com/dustinboston"
+      }
+    ],
+    "licenses": [
+      {
+        "type": "GPLv3",
+        "url": "https://raw.github.com/dustinboston/poink/master/LICENSE"
+      }
+    ],
+    "dependencies": {
+      "jquery": ">=1.2"
+    },
+    "homepage": "https://github.com/dustinboston/validate-json"
+}

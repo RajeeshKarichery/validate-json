@@ -1,0 +1,24 @@
+{
+  "name": "validate-json",
+  "version": "0.1.0",
+  "homepage": "https://github.com/dustinboston/validate-json",
+  "authors": [
+    "Dustin Boston <dustin@dblogit.com>"
+  ],
+  "description": "Validate JSON with a jQuery plugin",
+  "main": "jquery.validate-json.js",
+  "keywords": [
+    "json",
+    "validation",
+    "jsonlint",
+    "jsl"
+  ],
+  "license": "GPLv3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
